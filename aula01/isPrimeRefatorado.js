@@ -12,8 +12,9 @@ const hasDivisor = ( num ) => {
       return true
     }
   }
-  return false;
+  return false
 }
+
 const isPrime = (num) => NOT( isEvenAndIsNotTwo( num ) || hasIntegerSquareRoot( num ) || hasDivisor( num ) )
 
 console.log('isPrime 2', isPrime(2))
